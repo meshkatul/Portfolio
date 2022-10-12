@@ -1,0 +1,127 @@
+body {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+header {
+  border: style 3px;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Cosmic Sans MS";
+  color: #104a8e;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+  color: blue;
+  font-family: Quattrocento, sans-serif;
+}
+
+main div {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #104a8e;
+}
+
+hr {
+  color: black;
+  width: 40%;
+  height: 0%;
+}
+
+#about {
+  width: 600px;
+  display: flex;
+  margin-left: 300px;
+}
+
+/* image style */
+#about img {
+  width: 250px;
+  height: 250px;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+
+#experience {
+  width: 600px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: -80px;
+  margin-bottom: 30px;
+}
+
+#contact {
+  width: 600px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: -80px;
+  margin-bottom: 30px;
+}
+
+#github {
+  margin-top: -30px;
+  padding-left: 30px;
+  padding-bottom: 6px;
+}
+
+footer {
+  font-size: smaller;
+}
+
+ul li {
+  font-size: small;
+}
+
+ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* styled link using pseudo-classes */
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
